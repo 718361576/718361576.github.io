@@ -654,14 +654,14 @@
     $(function () {
         new DPlayer({
             container: document.getElementById('dplayer'),
-            autoplay: 'false' === 'true',
+            autoplay: 'true' === 'true',
             theme: '#42b983',
-            loop: 'false' === 'true',
+            loop: 'true' === 'true',
             lang: 'en' === 'zh-CN' ? 'zh-cn' : 'en',
             preload: 'auto',
             volume: Number('0.7'),
             video: {
-                url: '',
+                url: 'https://media.w3.org/2010/05/sintel/trailer.mp4',
                 pic: '',
                 thumbnails: ''
             }
